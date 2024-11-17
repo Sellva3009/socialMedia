@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# dotenv environment variables file
+.env
+
+# Node.js
+node_modules/
+node_modules/*
+
+# Dependency directories
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+npm-debug.log
+yarn-error.log
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.env
+.env.test
+.env*.local
+
+# User-specific files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.history
+
+# Optional eslint cache
+.eslintcache
